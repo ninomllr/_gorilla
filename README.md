@@ -1,12 +1,10 @@
-_tk
+_gorilla
 ===
 
-Themekraft Starter Theme
+Gorilla Starter Theme
 
 
-Hi. I'm a starter theme called `_tk`. I'm a theme meant for hacking so don't use me as just as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
-
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
+This blueprint theme is meant for hacking so don't use it as just as a Parent Theme. Instead try turning this into the next, most awesome, WordPress theme out there. 
 
 * Full Bootstrap Power, seamlessly integrated in Automattic's starter theme _s to bring these two together the cleanest way.
 * A just right amount of lean, well-commented, modern, HTML5 templates.
@@ -20,22 +18,8 @@ My ultra-minimal CSS might make me look like theme tartare but that means less s
 
 Getting Started
 ---------------
+TODO
 
-If you want to keep it simple, head over to http://underscores.me and generate your `_tk` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
-
-If you want to set things up manually, download `_tk` from github. The first thing you want to do is copy the `_tk` directory and change the name to something else - Like, say, `megatherium` - then you'll need to do a three-step find and replace on the name in all the templates.
-
-1. Search for `'_tk'` (inside single quotations) to capture the text domain.
-2. Search for `_tk_` to capture all the function names.
-3. Search for <code>&nbsp;_tk</code> (with a space before it) to capture DocBlocks.
-4. Search for `_tk-` to capture prefixed handles.
-
-OR
-
-* Search for: `'_tk'` and replace with: `'megatherium'`
-* Search for: `_tk_` and replace with: `megatherium_`
-* Search for: <code>&nbsp;_tk</code> and replace with: <code>&nbsp;Megatherium</code>
-* Search for: `_tk-` and replace with: `megatherium-`
 
 Then, update the stylesheet header in style.css and the links in footer.php with your own information. Next, update or delete this readme.
 
