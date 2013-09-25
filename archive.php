@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<div class="main-content-inner col-12 col-lg-8">
 	<?php // add the class "panel" below here to wrap the content-padder in Bootstrap style ;) ?>	
 	<div class="content-padder">
 		
@@ -97,5 +97,6 @@ get_header(); ?>
 	
 	</div><!-- .content-padder -->
 			
-<?php get_sidebar(); ?>
+	<?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>

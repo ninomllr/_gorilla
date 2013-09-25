@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-	
+<div class="main-content-inner col-12 col-lg-8">	
 	<?php if ( have_posts() ) : ?>
 
 		<header class="page-header">
@@ -28,5 +28,7 @@ get_header(); ?>
 
 	<?php endif; // end of loop. ?>
 
-<?php get_sidebar(); ?>
+	<?php get_sidebar(); ?>
+</div>
+
 <?php get_footer(); ?>

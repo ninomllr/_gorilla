@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-	
+<div class="main-content-inner col-12 col-lg-8">	
 	<?php while ( have_posts() ) : the_post(); ?>
 
 		<?php 
@@ -88,5 +88,7 @@ get_header(); ?>
 
 	<?php endwhile; // end of the loop. ?>
 
-<?php get_sidebar(); ?>	
+	<?php get_sidebar(); ?>	
+</div>
+
 <?php get_footer(); ?>
