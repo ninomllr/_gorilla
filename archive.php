@@ -4,7 +4,7 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package _tk
+ * @package _gorilla
  */
 
 get_header(); ?>
